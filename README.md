@@ -26,3 +26,9 @@ Student_pk;Nom;Prenom;Note;Commentaire
 12312321316;DOE;Mariasse;;
 ```
 
+The function used has the following structure
+```bash
+getRandomMark(nomFichier, minNote, maxNote);
+```
+
+
