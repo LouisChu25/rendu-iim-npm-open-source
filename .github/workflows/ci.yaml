@@ -24,7 +24,7 @@ jobs:
         run: npm run test
 
       - name: "Run eslint"
-        run: npx eslint app.js
+        run: npx eslint index.js
 
       - name: "Publish to NPM"
         uses: JS-DevTools/npm-publish@v2
